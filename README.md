@@ -12,19 +12,19 @@ Este proyecto implementa un sistema accesible y funcional que detecta signos de 
 - Interfaz gráfica simple para iniciar/detener el monitoreo.
 - Código abierto y adaptable a contextos de bajo costo.
 
----
+
 
 ##  Motivación
 
 Este sistema responde al Objetivo de Desarrollo Sostenible **ODS 3 (Salud y Bienestar)** y **ODS 11 (Ciudades sostenibles)**, brindando una herramienta económica que mejora la seguridad vial y previene accidentes asociados a la fatiga.
 
----
+
 
 ##  Capturas de pantalla
 
 *(Opcional: agregar imágenes del sistema en ejecución)*
 
----
+
 
 ## ⚙️ Instalación
 
@@ -47,7 +47,6 @@ cd deteccion-fatiga
 pip install -r requirements.txt
 ```
 
----
 
 ## 🚀 Uso
 
@@ -61,7 +60,6 @@ python interfaz.py
 3. Presiona **`q`** o **`ESC`** para detener el monitoreo desde la ventana de video.
 4. El sistema creará o actualizará el archivo `historial_alertas.csv` con los eventos detectados.
 
----
 
 ## 📁 Estructura del Proyecto
 
@@ -77,7 +75,6 @@ deteccion-fatiga/
 └── shape_predictor_68_face_landmarks.dat  # Modelo Dlib (no incluido por defecto)
 ```
 
----
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -88,7 +85,6 @@ deteccion-fatiga/
 * Tkinter
 * Scipy
 
----
 
 ## 📌 Estado del Proyecto
 
