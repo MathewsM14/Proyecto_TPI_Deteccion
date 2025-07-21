@@ -81,7 +81,7 @@ def reproducir_alarma_alternativa():
 
 def iniciar_detector():
     UMBRAL_EAR = 0.25
-    FRAMES_CONSEC = 20
+    FRAMES_CONSEC = 25
     contador = 0
     alarma_activa = False
     
